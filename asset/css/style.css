@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: rgb(189, 138, 138);
+    background: radial-gradient(circle, rgba(189, 138, 138, 1) 0%, rgba(9, 51, 162, 1) 100%);
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-areas:
+        "tarjeta"
+        "boton"
+        "resultado";
+    grid-template-rows: 12fr 1fr 1fr;
+
+}
+
+section {
+    display: grid;
+    grid-area: tarjeta;
+}
+
+article {
+    border-color: black;
+    border: solid;
+    background: rgb(189, 138, 138);
+    background: radial-gradient(circle, rgba(189, 138, 138, 1) 0%, rgba(124, 6, 119, 1) 100%);
+    border-radius: 3%;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 100px;
+    width: 3fr;
+
+}
+
+
+button {
+    margin-left: 130px;
+    margin-right: 130px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 70px;
+    height: 30px;
+    border-radius: 25%;
+    grid-area: boton
+}
+
+#respuesta {
+    grid-area: resultado;
+    background-color: blueviolet;
+}
+
+.tarjeta {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    height: 100%;
+    margin: 20px;
+    padding-bottom: 20px;
+    gap: 10px;
+
+}
+
+.Borde_Para_Imagen {
+    border: 20px solid red;
+    margin-top: 100px;
+}
+
+.arreglo {
+    display: flex;
+    margin-top: 100px;
+}
+
+.Sticker {
+    margin-top: 20px;
+    width: 40vh;
+    height: 45vh;
+    border-radius: 10%;
+    background-color: white;
+}
+
+#numeral {
+    width: 50px;
+    height: 30px;
+    border-radius: 25%;
+    text-align: center;
+}
